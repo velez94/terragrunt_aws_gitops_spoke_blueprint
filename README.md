@@ -52,7 +52,27 @@ cd infrastructure/network/vpc
 terragrunt init
 ```
 
-### Quick Start
+### Installation
+
+1. Clone the repository:
+   ```
+   git clone <repository_url>
+   cd terragrunt_aws_gitops_blueprint
+   ```
+
+2. Initialize Terragrunt:
+   ```
+   terragrunt init
+   ```
+
+3. Review and adjust the configuration in `terragrunt.hcl` files as needed.
+
+4. Apply the Terragrunt configuration:
+   ```
+   terragrunt run-all apply
+   ```
+
+### Quick Start - Stack by stack
 
 1. Deploy the VPC infrastructure:
 ```bash
